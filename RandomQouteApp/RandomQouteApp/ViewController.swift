@@ -79,7 +79,7 @@ class ViewController: UIViewController {
     
     func fetchQuote() {
         // Define the URL for the GitHub API
-        let token = "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"
+        let token = //your personal access token here
         let url = URL(string: "https://zenquotes.io/api/quotes")!
 
         // Define the headers for the request
